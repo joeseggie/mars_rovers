@@ -58,7 +58,6 @@ def test_interview(current_position, instructions, new_position):
             rover.turn_right()
         if instruction == 'M':
             rover.move()
-        print(rover)
 
     assert str(rover) == new_position
     assert repr(rover) == f'Rover: {new_position}'
