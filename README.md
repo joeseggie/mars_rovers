@@ -46,3 +46,21 @@ Expected Output:
 1 3 N
 
 5 1 E
+
+
+Setup
+-----
+Clone the repo
+`git clone https://github.com/joeseggie/mars_rovers.git`
+
+Language
+--------
+- Python 3.7.2
+
+Packages
+--------
+- pytest
+
+Test
+----
+Run `pytest`
